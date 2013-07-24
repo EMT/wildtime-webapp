@@ -110,6 +110,13 @@ $(function(){
 */
 	
 	
+	//	Swap in pngs for old IE
+	if(!Modernizr.svg) {
+	    $('img[src*="svg"]').attr('src', function() {
+	        return $(this).attr('src').replace('.svg', '.png');
+	    });
+	}
+	
 	
 	fixSvgHeights();
 	
