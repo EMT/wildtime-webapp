@@ -270,7 +270,7 @@ header {
 /* 	display: none; */
 }
 #menu-button:after {
-	background: transparent url(../images/grass-header.png) repeat-x center bottom;
+	background: transparent url(/img/grass-header.png) repeat-x center bottom;
 	background-size: auto 26px;
 	position: absolute;
 	bottom: -18px;
@@ -537,12 +537,12 @@ header {
 	display: none;
 }
 #activity-prev {
-	background-image:url(../images/arrow-prev.svg);
+	background-image:url(/img/arrow-prev.svg);
 	left: -30px;
 	background-position: 37px 20px;
 }
 #activity-next {
-	background-image:url(../images/arrow-next.svg);
+	background-image:url(/img/arrow-next.svg);
 	right: -30px;
 }
 
