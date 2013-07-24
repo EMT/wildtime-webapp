@@ -569,11 +569,13 @@ figure img {
 #content .share-buttons a {
 	display: block;
 	color: rgb(18,72,72);
+	background: rgba(225,217,205);
 	background: rgba(255,247,225,0.6);
 	padding: 0.4em 0.6em;
 	border-radius: 3px;
 }
 #content .share-buttons a:hover {
+	background: rgb(235,227,205);
 	background: rgba(255,247,225,0.8);
 }
 
