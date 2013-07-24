@@ -113,7 +113,7 @@ $(function(){
 	
 	
 	if (!Modernizr.backgroundsize) {
-		$('#grass-pattern').css({backgroundImage: '/img/grass-header-1x.png'});
+		$('#grass-pattern').css({backgroundImage: 'url(/img/grass-header-1x.png)'});
 	}
 	
 	
