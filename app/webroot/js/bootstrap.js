@@ -112,6 +112,13 @@ $(function(){
 */
 	
 	
+	if (!Modernizr.backgroundsize) {
+		$('img[src*="grass-header.png"]').attr('src', function() {
+	        return $(this).attr('src').replace('grass-header.png', 'grass-header-1x.png');
+	    });
+	}
+	
+	
 	//	Swap in pngs for old IE
 	if(!Modernizr.svg) {
 	    $('img[src*="svg"]').attr('src', function() {
