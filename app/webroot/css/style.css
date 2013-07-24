@@ -269,7 +269,7 @@ header {
 	z-index:2;
 /* 	display: none; */
 }
-#menu-button:after {
+#grass-pattern {
 	background: transparent url(/img/grass-header.png) repeat-x center bottom;
 	background-size: auto 26px;
 	position: absolute;

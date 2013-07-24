@@ -67,7 +67,7 @@
 			</nav>
 			<div id="wt-logo"><img src="/img/wt-logo-fuzzy.svg"/></div>
 			<a href="#" id="menu-button"><img src="/img/menu-button.svg"/></a>
-			<!-- <div id="grass-pattern"></div> -->
+			<div id="grass-pattern"></div>
 		</header>
 		
 		
