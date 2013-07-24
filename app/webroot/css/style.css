@@ -577,6 +577,25 @@ figure img {
 	background: rgba(255,247,225,0.8);
 }
 
+
+
+.home-page {
+	padding: 6em 8%;
+	margin: 0 auto;
+}
+.home-page h2 {
+	font-family: "Futura Bold";
+	font-weight: normal;
+	margin:0px;
+	padding: 2em 0 0;
+	font-size:1.25em;
+}
+.home-page a {
+	color: rgb(255,255,255);
+}
+
+
+
 /* ==|== media queries ======================================================
 
    ========================================================================== */
