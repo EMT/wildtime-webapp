@@ -6,9 +6,11 @@ $(function(){
 
 	/* app.initialize(); */
 	
+/*
 	document.addEventListener('deviceready', function() {
 		wildtime.init();
 	}, false);
+*/
 	
 	wildtime.init();
 	
